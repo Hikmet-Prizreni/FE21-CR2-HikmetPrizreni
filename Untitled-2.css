@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;  
+}
+
+header {
+    width: 2000px;
+    height: 450px;
+    display: flex;
+    background-color: rgb(83, 5, 5);
+    flood-opacity: unset;
+    justify-content: space-between;
+    
+    
+}/*
+        div {
+            
+        }
+
+                img {
+                    width: 1200px; height="175px
+                }
+                        div {
+                            
+
+                                
+                                } 
