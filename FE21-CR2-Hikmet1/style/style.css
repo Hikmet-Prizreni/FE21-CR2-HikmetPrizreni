@@ -1,0 +1,517 @@
+@media screen and (max-width: 480px) {
+  body {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    padding: 2%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  iframe {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .hero {
+    background-color: #5D0D10;
+    height: 40vh;
+  }
+  #bann {
+    width: 0;
+    height: 0;
+  }
+  #logo {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    padding: 3em;
+  }
+  nav {
+    background-color: black;
+    padding: 0.2%;
+  }
+  .navig {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+  }
+  .navig a {
+    color: white;
+    font-style: bolder;
+    font-size: 1.5em;
+  }
+  .datum {
+    text-align: right;
+    font-size: 0;
+  }
+  .title {
+    text-align: center;
+    padding: 0.1%;
+    background-color: #DBD5CD;
+  }
+  .news {
+    margin: auto;
+  }
+  figcaption {
+    text-align: center;
+  }
+  figcaption a {
+    color: white;
+    text-decoration: none;
+  }
+  .item {
+    background-color: black;
+  }
+  .banner3 {
+    width: 0px;
+    height: 0px;
+    display: block;
+  }
+  .item2 {
+    background-color: black;
+  }
+  footer {
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    padding: 0.5em;
+  }
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo2 {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+  }
+  .menu-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-f a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+    font-size: 1.5em;
+  }
+  .hikmet {
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    padding: 2%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .MyVideo {
+    align-text: center;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-text: center;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .hero {
+    background-color: #5D0D10;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3em;
+  }
+  #bann {
+    width: 50vw;
+    height: 50%;
+  }
+  #logo {
+    width: 35%;
+    height: 45%;
+    margin: auto;
+    padding: 3em;
+  }
+  nav {
+    background-color: black;
+    padding: 0.2%;
+  }
+  .navig {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+  }
+  .navig a {
+    color: white;
+    font-style: bolder;
+    font-size: 2em;
+  }
+  .datum {
+    text-align: right;
+    font-style: bold;
+  }
+  .title {
+    text-align: center;
+    padding: 0.1%;
+    background-color: #DBD5CD;
+    font-size: 1.5em;
+  }
+  .news {
+    display: -ms-grid;
+    display: grid;
+    margin: auto;
+    padding: 0.2em 0;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  figcaption {
+    text-align: center;
+    height: 15%;
+  }
+  figcaption a {
+    color: white;
+    text-decoration: none;
+  }
+  .item {
+    background-color: black;
+    width: 35vw;
+    height: 40vw;
+  }
+  .item img {
+    height: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner3 {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    margin: auto;
+    padding: 2em 0;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 1em 5em;
+  }
+  .item2 {
+    width: 38vw;
+    margin: auto;
+    background-color: black;
+  }
+  footer {
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    padding: 0.5em;
+  }
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo2 {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0;
+  }
+  .menu-f {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-f a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+    font-size: 1.5em;
+  }
+  .hikmet {
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    padding: 2%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .hero {
+    background-color: #5D0D10;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3em;
+  }
+  #bann {
+    width: 50vw;
+    height: 50%;
+  }
+  #logo {
+    width: 35%;
+    height: 45%;
+    margin: auto;
+    padding: 3em;
+  }
+  nav {
+    background-color: black;
+    padding: 0.2%;
+  }
+  .navig {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+  }
+  .navig a {
+    color: white;
+    font-style: bolder;
+    font-size: 2em;
+  }
+  .datum {
+    text-align: right;
+    font-style: bold;
+  }
+  .title {
+    text-align: center;
+    padding: 0.1%;
+    background-color: #DBD5CD;
+    font-size: 1.5em;
+  }
+  .news {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1em 0;
+    height: 50vh;
+  }
+  figcaption {
+    text-align: center;
+    height: 15%;
+  }
+  figcaption a {
+    color: white;
+    text-decoration: none;
+  }
+  .item {
+    background-color: black;
+    width: 30vw;
+  }
+  .item img {
+    height: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner3 {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    margin: auto;
+    padding: 2em 0;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 1em 5em;
+  }
+  .item2 {
+    width: 38vw;
+    margin: auto;
+    background-color: black;
+  }
+  footer {
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    padding: 0.5em;
+  }
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1em;
+  }
+  .logo2 {
+    width: 25%;
+    margin: auto;
+    padding: 1em 0;
+  }
+  .menu-f {
+    width: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-f a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+    font-size: 2em;
+  }
+  .hikmet {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
